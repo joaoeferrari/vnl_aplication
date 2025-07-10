@@ -6,7 +6,7 @@ df = pd.read_csv('VNL2023.csv')
 st.set_page_config(
     page_title='Statistics',
     page_icon='📊',
-    layout='wide',
+    layout='centered',
 )
 
 st.title('📊 Statistics Filtering')
@@ -29,6 +29,7 @@ st.subheader('🏆 The bests of each category:')
 # attack
 st.write('Attack:')
 ba = df.loc[df['Attack'] == df['Attack'].max()]
+# BA = df.sort_values(by='Attack', ascending=False).head(1).reset_index(drop=True)
 st.dataframe(ba, hide_index=True)
 
 # block
