@@ -84,7 +84,7 @@ This Streamlit application provides interactive analysis and visualizations for 
 
 1. Clone the repository:
    ``` bash
-   git clone https://github.com/your-username/vnl_aplication.git
+   git clone https://github.com/joaoeferrari/vnl_aplication.git
    cd vnl_aplication
    ```
 2. Install dependencies:
