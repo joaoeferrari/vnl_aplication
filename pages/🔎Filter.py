@@ -21,7 +21,7 @@ if country == 'All':
 else:
     country_details = df[df['Country'] == country].reset_index(drop=True)
 
-position = st.selectbox('Select a country to filter the dataset:',
+position = st.selectbox('Select a position to filter the dataset:',
     options=['All']+ sorted(df['Position'].dropna().unique().tolist())
 )
 if position == 'All':

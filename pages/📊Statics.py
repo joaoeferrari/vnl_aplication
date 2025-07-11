@@ -9,14 +9,14 @@ st.set_page_config(
     layout='centered',
 )
 
-st.title('📊 Statistics Filtering')
+st.title('Statistics Filtering')
 
 st.markdown('''
 Here is some highlights of the dataset:
 ''')
 st.divider()
 
-st.subheader('📈 Overview:')
+st.subheader('Overview:')
 st.write('Players:', df['Player'].nunique())
 st.write('Countries:', df['Country'].nunique())
 st.write('Setters:', df[df['Position'] == 'S']['Player'].nunique())
@@ -25,7 +25,7 @@ st.write('Outside Hitters:', df[df['Position'] == 'OH']['Player'].nunique())
 st.write('Liberos:', df[df['Position'] == 'L']['Player'].nunique())
 st.write('Opposites:', df[df['Position'] == 'OP']['Player'].nunique())
 
-st.subheader('🏆 The bests of each category:')
+st.subheader('The best of each category:')
 # attack
 st.write('Attack:')
 ba = df.loc[df['Attack'] == df['Attack'].max()]

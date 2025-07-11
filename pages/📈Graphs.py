@@ -19,7 +19,7 @@ st.divider()
 
 # graph 1
 st.subheader('Top 10 Attack by Position')
-position = st.selectbox('Selecione a posição:', df['Position'].unique())
+position = st.selectbox('Select position:', df['Position'].unique())
 df_filtered = df[df['Position'] == position]
 
 fig = px.bar(df_filtered.sort_values('Attack', ascending=False).head(10), 
