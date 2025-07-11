@@ -1,5 +1,6 @@
 # 🏐 VNL 2023 – Men's Volleyball Player Statistics App
-
+🔗 **Live App:** https://vnlanalysis.streamlit.app/  
+---
 This Streamlit application provides interactive analysis and visualizations for the **2023 FIVB Volleyball Nations League (VNL)** men's statistics. It leverages real performance data of international volleyball players and allows filtering, ranking, and graphical exploration of key performance indicators such as attack, block, serve, dig, receive, and more.
 
 ## 📂 Project Structure
