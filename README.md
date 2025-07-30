@@ -9,6 +9,8 @@ This Streamlit application provides interactive analysis and visualizations for 
 <img width="1843" height="822" alt="image" src="https://github.com/user-attachments/assets/14e9fd21-3558-4cde-a47e-ef6f106aa17a" />
 <img width="1837" height="837" alt="image" src="https://github.com/user-attachments/assets/7d80bc06-d5c7-491e-913e-56cd565a9bcb" />
 
+---
+
 ## 📂 Project Structure
 
 - `Home.py` – Project introduction, dataset explanation, and general information.
